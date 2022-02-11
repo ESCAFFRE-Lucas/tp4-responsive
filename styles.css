@@ -1,0 +1,30 @@
+.bd-links .btn {
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar {
+    color: #330057;
+}
+
+.navbar-nav .flex-row {
+    position: absolute;
+}
+
+.align-items-start {
+    display: grid;
+    grid-template-columns: .4fr 1fr .4fr;
+}
+
+.navbar-expand-lg {
+    background-color: #180026;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.nav-link{
+    color: white !important;
+}
