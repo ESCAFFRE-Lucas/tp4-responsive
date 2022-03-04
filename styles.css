@@ -28,3 +28,115 @@
 .nav-link{
     color: white !important;
 }
+<<<<<<< HEAD
+=======
+
+h2 {
+    color: white;
+}
+
+.fa-store:before {
+    color: white;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    font-size: 0.9rem;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+}
+
+.icon {
+    align-items: center;
+    margin-top: 13px;
+}
+
+.icon-color {
+    color: white;
+}
+
+.algolia-autocomplete {
+    width: 90%;
+}
+
+.search-bar {
+    flex: 0.9;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.nozama {
+    margin: 5px 10px 0 10px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.list {
+    margin: 10px;
+}
+
+.list-input {
+    margin: 10px 0 10px 10px;
+}
+
+.brand {
+    display: grid;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+    margin: 0 10px 10px 10px;
+}
+
+.align {
+    align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+    .contain {
+        grid-template-columns: 0 1fr;
+    }
+    .text-container *{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .image-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .image-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 0px) {
+    .nav {
+        display: flex !important;
+        flex-basis: auto;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-bar {
+        display: none;
+    }
+    .icon.icon-color {
+        justify-self: right;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+}
+>>>>>>> d0b944e (finish project)
